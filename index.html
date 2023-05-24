@@ -7,10 +7,12 @@
     <title>Primer Sitio Web</title>
 </head>
 <body>
-    <h1>Sitio Web de Alejandro</h1>
-    <hr>
-    <h2>Probando un poco de HTML</h2>
-    <p>Esta es una primera prueba de<br> creación de un sitio web</p>
+    <div id="encabezado">
+        <h1>Sitio Web de Alejandro</h1>
+        <hr>
+        <h2>Probando un poco de HTML</h2>
+        <p>Esta es una primera prueba de<br> creación de un sitio web</p>
+</div>
     <p>Probamos la etiqueta IMG e insertamos una foto de Santa Fe</p>
     <code>&lt;img src="imgs/santafe.jfif" alt="Imagen panorámica de la ciudad de Santa Fe" width="150px"&gt;</code>
     <br><img src="imgs/santafe.jfif" alt="Imagen panorámica de la ciudad de Santa Fe" width="150px">
@@ -25,5 +27,65 @@
     <br><a href="https://www.clarin.com" target="_blank"><img src="imgs/clarin.png" alt="Imagen panorámica de la ciudad de Santa Fe" width="150px"></a>
 
 
+    <div id="etiquetasDeBloque">
+        <p>Países que juegan en la zona de Argentina en el Mundial Sub 20</p>
+        <ul>
+            <li>Argentina</li>
+            <li>Nueva Zelanda</li>
+            <li>Guatemala</li>
+            <li>Uzbequistán</li>
+        </ul>
+        <p>Países que juegan en la zona de Brasil en el Mundial Sub 20</p>
+        <ol>
+            <li>Brasil</li>
+            <li>Nigeria</li>
+            <li>Italia</li>
+            <li>República Dominicana</li>
+        </ol>
+    </div>
+    <table border="2px">
+        <tr>
+            <th colspan="6">Temperatura San Justo</th>
+        </tr>
+        <tr>
+            <th>Hora</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+        <tr>
+            <td>7:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>8:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>9:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th colspan="6">Fuente:Infoclima</td>
+        </tr>
+    </table>
+    <!--este tipo de DIV fue reemplazado por la etiqueta footer-->
+    <div id="pieDePagina">
+        <p>Texto final de la página web</p>
+    </div>
 </body>
 </html>
