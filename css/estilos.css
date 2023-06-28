@@ -53,3 +53,6 @@ span[border-style~="double"]{
     background-color: azure;
     border-radius: 8px;
 }
+#pieDePagina:hover {
+    background-color: rgb(63, 146, 146); 
+}
