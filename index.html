@@ -9,9 +9,12 @@
         h2 { color:blueviolet;}
     </style>
     <link rel="stylesheet" href="css/estilos.css">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
 </head>
 <body bgcolor="gray">
+    <div class="container-lg">
     <div id="encabezado">
         <h1>Sitio Web de Alejandro</h1>
         <hr>
@@ -51,7 +54,7 @@
     <h3>Probando tablas</h3>
     <div id="tablaTemperatura">
         <center>
-        <table border="2px" style="background-color: aquamarine;">
+        <table border="2px" style="background-color: aquamarine;" class="table table-success table-striped">
             <tr>
                 <th colspan="6">Temperatura San Justo</th>
             </tr>
@@ -98,7 +101,7 @@
 
         <!--TABLA TEMAS INGENIERÍA-->
     <div id="tablaTemas">
-        <table border="2px">
+        <table border="2px" class="table table-dark table-striped">
             <tr>
                 <th rowspan="3">Ingeniería 2023</th>
                 <th colspan="3">Temas</th>
@@ -143,6 +146,6 @@
         <p>Texto final de la página web</p>
     </div>
 
-
+</div>
 </body>
 </html>
